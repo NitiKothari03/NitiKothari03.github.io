@@ -1,0 +1,81 @@
+
+.topnav {
+  margin-bottom: 0px;
+  overflow: hidden;
+  background-color: #171616;
+  padding: 10px;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: rgb(228, 220, 220);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-bottom: 0px;
+}
+
+.topnav a:hover {
+  background-color: #777474;
+  color: white;
+  border-radius: 5px;
+  margin-bottom: 0px;
+}
+
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+  margin-bottom: 0px;
+}
+
+.topnav .search-container {
+  float: right;
+  margin-right: 100px;
+  margin-bottom: 0px;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+  border-radius: 5px;
+  background: #646262;
+  color: aliceblue;
+  margin-bottom: 0px;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #646262;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.topnav .search-container button:hover {
+  background: #c2bfbf;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}

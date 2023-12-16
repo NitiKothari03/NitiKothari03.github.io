@@ -1,0 +1,18 @@
+npm install react-circular-progressbar
+For progress bar in About page
+
+npm install bootstrap react-bootstrap
+for bootstrap classes
+
+font-awesome.min.css
+for fontawsome icons
+
+react-type-animation
+for typing animation on home page
+
+npm install --save @fortawesome/fontawesome-svg-core /
+>>                 @fortawesome/free-solid-svg-icons /
+>>                 @fortawesome/free-brands-svg-icons /
+>>                 @fortawesome/react-fontawesome
+
+npm install --save email-js
